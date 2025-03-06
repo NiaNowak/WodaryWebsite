@@ -1,0 +1,59 @@
+header{
+    background-image:url(../images/skyline.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:200px;
+    color:lavender;
+    border: 2px solid black;
+    padding-left:10px;
+}
+nav {
+    padding:1px;
+    background-color:white;
+}
+nav ul {
+    text-align:center;
+    font-size:1.2em;
+}
+nav ul li{
+    list-style-type:none;
+    background-color:white;
+    display:inline;
+    padding:15px;
+    margin:5px;
+    border:2px solid black;
+}
+nav ul li a{
+    color:navy;
+    text-decoration:none;
+}
+nav ul li:hover{
+    background-color:rgb(154, 62, 190);
+}
+#currentpage{
+    background-color:rgb(130, 52, 161);
+}
+main{
+    width:66.5%;
+    float:left;
+}
+aside{
+    border:1px solid black;
+    width:33%;
+    float: right;
+}
+
+
+
+footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(2, 31, 2);
+}
+footer p{
+    text-align:center;
+    color: white;
+}
