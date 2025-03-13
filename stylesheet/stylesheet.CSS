@@ -10,9 +10,11 @@ header{
     border: 2px solid black;
     padding-left:10px;
 }
+body{
+    background-color:rgb(251, 245, 255);
+}
 nav {
     padding:1px;
-    background-color:white;
 }
 nav ul {
     text-align:center;
@@ -36,6 +38,9 @@ nav ul li:hover{
 #currentpage{
     background-color:rgb(130, 52, 161);
 }
+#icon{
+    float:right; margin-right:10px; margin-top:40px; border:2px black solid;
+}
 main{
     width:66.5%;
     float:left;
@@ -44,12 +49,19 @@ aside{
     border:1px solid black;
     width:33%;
     float: right;
+    background-color:whitesmoke;
 }
 aside p{
     margin-left:2px;
 }
-
-
+table, th, td{
+border:1px solid black;
+}
+article{
+    border: 1px black solid;
+    width:40%;
+    float:left;
+}
 
 footer {
     padding: 0;
