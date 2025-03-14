@@ -62,6 +62,10 @@ article{
     width:40%;
     float:left;
 }
+img{
+    border:1px black solid;
+}
+
 
 footer {
     padding: 0;
