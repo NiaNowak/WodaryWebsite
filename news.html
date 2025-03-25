@@ -43,14 +43,15 @@
         <aside style="width:25%">
             <p> Would you like to be update about Wodary's news?</p>
             <form action="https://www.foo.com/" method="put">
-             <p>E-Mail :<input required type="text" name="email" id="email" autofocus></p>
+             <label for="Email">E-Mail:<span class="required">*</span></label>
+                <input type="text" name="Email" id="Email" autofocus required>
               <p>Name :<input type="text" name="name" id="name" autofocus></p>
               <p> News Type: <br>
-              <input type="checkbox" name="News_Choice" value="General">
+              <input type="checkbox" name="News_ChoiceG" id="gen" value="General">
                <label for="General">General News</label>
-               <input type="checkbox" name="News_Choice" value="Business">
+               <input type="checkbox" name="News_ChoiceSB" id="busop" value="Business">
               <label for="Business">Businesses and Shops</label> <br>
-                <input type="checkbox" name="News_Choice" value="Construction">
+                <input type="checkbox" name="News_ChoiceCV" id="conote" value="Construction">
                <label for="Construction">Construction and Architecture votes</label> <br>
                <input type="submit" id="submit" value="Submit">
                </p>

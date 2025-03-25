@@ -88,8 +88,13 @@ img{
     padding:2px;
     width:70%;
 }
-
-
+.required{
+    font-weight:bold;
+    color:red;
+}
+ol li{
+    line-height:25px;
+}
 footer {
     clear:both;
     padding: 5px;
