@@ -91,12 +91,14 @@ img{
 
 
 footer {
-    padding: 0px;
-    margin: 0;
-    position: fixed;
+    clear:both;
+    padding: 5px;
+    margin:0;
+    position: relative;
     bottom: 0px;
     width: 100%;
-    background-color: rgb(2, 31, 2);
+    background-color: rgb(2, 194, 136);
+    border: solid 1px rgb(0, 114, 80)
 }
 footer p{
     text-align:center;
