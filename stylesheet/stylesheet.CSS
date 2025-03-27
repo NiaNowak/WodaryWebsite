@@ -1,5 +1,9 @@
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
 p{
     font-size:1.1em;
+    
 }
 header{
     background-image:url(../images/skyline.png);
@@ -15,6 +19,8 @@ body{
 }
 nav {
     padding:1px;
+    background-color:rgb(2, 126, 89);
+    border: solid 1px rgb(0, 68, 48);
 }
 nav ul {
     text-align:center;
@@ -102,8 +108,8 @@ footer {
     position: relative;
     bottom: 0px;
     width: 100%;
-    background-color: rgb(2, 194, 136);
-    border: solid 1px rgb(0, 114, 80)
+    background-color: rgb(2, 126, 89);
+    border: solid 1px rgb(0, 68, 48)
 }
 footer p{
     text-align:center;
